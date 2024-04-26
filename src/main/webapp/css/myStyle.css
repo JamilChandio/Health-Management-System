@@ -1,0 +1,116 @@
+/* Header Styling */
+header {
+	 /* Multicolored gradient with light dark tone */
+    background-image: linear-gradient(to right, #39424e, #495164, #56667f); /* Gradient with multicolored light dark tones */
+    color: rgb(0, 0, 255); /* White text color for contrast */
+    padding: 20px; /* Padding */
+    text-align: center; /* Text alignment */
+    font-size: 24px; 
+    
+}
+
+header label {
+  font-size: 2em; /* Adjust font size as needed */
+}
+
+/* Footer Styling */
+/* Footer Styling */
+footer {
+    /* Gradient background with light colors */
+    background-image: linear-gradient(to bottom right, #f0f0f0, #e0e0e0); /* Gradient with light colors */
+    color: #333; /* Dark text color for contrast */
+    padding: 30px; /* Padding */
+    text-align: center; /* Text alignment */
+    /* Add box shadow for a stylish effect */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Body Styling */
+body {
+	font-family: Arial, sans-serif; /* Set a fallback font family */
+	background-color: #f7f7f7; /* Light background color */
+	color: #333; /* Text color */
+	line-height: 1.6; /* Line height for better readability */
+	margin: 0; /* Remove default margin */
+	padding: 0; /* Remove default padding */
+	  background-image: linear-gradient(to bottom right, #37474f, #263238); /* Gradient with lighter dark colors */
+    color: #fff; /* White text color for contrast */
+}
+
+/* Additional Styling for Text */
+p {
+	font-size: 16px; /* Font size for paragraphs */
+}
+
+h1, h2, h3 {
+	margin-bottom: 20px; /* Add margin below headings */
+}
+
+/* Additional Styling for Links */
+a {
+	color: #007bff; /* Link color */
+	text-decoration: none; /* Remove default underline */
+	transition: color 0.3s; /* Smooth transition for link color */
+}
+
+a:hover {
+	color: #0056b3; /* Link color on hover */
+}
+
+section {
+	padding: 50px 0;
+}
+
+.card {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease;
+	background-color: black;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+	padding: 20px;
+}
+
+
+/* Navbar Styling */
+nav {
+    /* Gradient background with light dark tones */
+    background-image: linear-gradient(to right, #39424e, #495164, #56667f); /* Gradient with light dark tones */
+    color: #fff; /* White text color for contrast */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Text alignment */
+}
+
+nav a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove default underline */
+    margin: 0 10px; /* Add spacing between links */
+    /* Add some text decoration */
+    border-bottom: 2px solid transparent; /* Add transparent border bottom */
+    transition: border-bottom-color 0.3s; /* Smooth transition for border color */
+}
+
+nav a:hover {
+    border-bottom-color: #fff; /* Change border bottom color on hover */
+}
+
+    .form-container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+ .required::after {
+        content: "*";
+        color: red;
+    }
